@@ -60,17 +60,17 @@ cd clickhouse-data-ingestion-tool
 
 ## 🖥️ Backend Setup
 
-Navigate to the frontend directory:
+1. **Navigate to the Backend directory**
 
 ```bash
 cd backend
 ```
-Install Go dependencies:
+2. **Install Go dependencies**
 
 ```bash
 go mod download
 ```
-Start the server:
+3. **Start the server**
 ```bash
 go run main.go
 ```
@@ -78,17 +78,17 @@ go run main.go
 
 ## 🌐 Frontend Setup
 
-Navigate to the frontend directory:
+1. **Navigate to the frontend directory**
 
 ```bash
 cd frontend
 ```
-Install dependencies:
+2. **Install dependencies**
 
 ```bash
 npm install
 ```
-Start the development server:
+3. **Start the development server**
 
 ```bash
 npm run dev
